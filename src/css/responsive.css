@@ -1,0 +1,56 @@
+@media(max-width: 1300px){
+    main{
+        background: url(../images/bg-mobile.svg) no-repeat top;
+        background-size: contain;
+        background-color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container{
+        padding: 10%;
+    }
+
+    .header{
+        margin-bottom: 30px;
+    }
+
+    .header img{
+        max-width: 50%;
+    }
+    .section{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+    .section .mockups img{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .section .informacoes{
+        margin-top: 0;
+    }
+    .section .informacoes h1{
+        font-size: 140%;
+    }
+    .section .informacoes p{
+        font-size: 90%;
+        margin: 15px 0;
+        line-height: 20px;
+    }
+    .section .informacoes .btn{
+        margin-top: 10px;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
+
+
